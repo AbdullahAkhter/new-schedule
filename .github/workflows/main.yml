@@ -1,0 +1,10 @@
+name: Abdullah
+on: 
+  schedule:
+    - cron: "29 17 * * *"
+jobs:
+   demo:
+     runs-on: ubuntu-latest
+     steps:
+       - name: greeting
+         run: echo"jjjrjrjjr'
